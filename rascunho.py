@@ -1,5 +1,15 @@
 import os
 os.system('cls')
+def modificar(biblioteca, modificar_livro):
+    novo_nome = input("Redigite o nome do livro: ")
+    autor_livro = input("Redigite o autor do livro: ")
+    nova_categoria = input("Redigite a categoria do livro: ")
+    preco_livro = float(input("Redigite o preço do livro: "))
+    biblioteca[modificar_livro]["categoria"] = nova_categoria
+    biblioteca[modificar_livro]["autor"] = autor_livro
+    biblioteca[modificar_livro]["preço"] = preco_livro
+    return novo_nome, autor_livro, nova_categoria, preco_livro
+
 dinheiro_livro = 0
 biblioteca = {}
 categorias = {}
@@ -22,17 +32,13 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
         nome_livro = input("Digite o nome do livro: ")
         autor_livro = input("Digite o autor do livro: ")
         categoria_livro = input("Digite a categoria do livro: ")
-
+    
         while True:
             try:
                 preco_livro = float(input("Digite o preço do livro: "))
                 break  # Se o número for válido, saia do loop
             except ValueError:
                 print("Preço inválido. Tente novamente.")
-            else:
-                print("Escolha inválida. Tente novamente.")
-                os.system('cls')#colocamos um if para caso a Nathália escolha a opção 1 ela seja direcionada para a adição de um livro como consta da opção, além disso aplicamos a biblioteca os.system para limpar a quando o código for acionado.
-
         informacao_livro = {
             "autor": autor_livro,
             "categoria": categoria_livro,
@@ -63,24 +69,26 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
     elif escolha == '3':
         modificar_livro = input("Digite o nome do livro que você quer atualizar as informações: ")
         if modificar_livro in biblioteca:
-            novo_nome = input("Redigite o nome do livro: ")
-            autor_livro = input("Redigite o autor do livro: ")
-            nova_categoria = input("Redigite a categoria do livro: ")
-            preco_livro = float(input("Redigite o preço do livro: "))
-            biblioteca[modificar_livro]["categoria"] = nova_categoria
-            biblioteca[modificar_livro]["autor"] = autor_livro
-            biblioteca[modificar_livro]["preço"] = preco_livro
-            if novo_nome != modificar_livro:
-                biblioteca[novo_nome] = biblioteca.pop(modificar_livro)
-                if nova_categoria != categoria_livro:
-                    categorias[nova_categoria] = [novo_nome]
-                    categorias[categoria_livro].remove(modificar_livro)
-                    if len(categorias[categoria_livro]) == 0:
-                        del categorias[categoria_livro]
-            os.system('cls')
-            print('Informações atualizadas!')
-        else:
-            print(f"O livro {modificar_livro} não está na biblioteca, digite outro livro")
+            novo_nome, autor_livro, nova_categoria, preco_livro = modificar()
+        if novo_nome != modificar_livro:
+            biblioteca[novo_nome] = biblioteca.pop(modificar_livro)
+            if nova_categoria != categoria_livro:
+                categorias[nova_categoria] = [novo_nome]
+                categorias[categoria_livro].remove(modificar_livro)
+                if len(categorias[categoria_livro]) == 0:
+                    del categorias[categoria_livro]
+        
+        if novo_nome != modificar_livro:
+            biblioteca[novo_nome] = biblioteca.pop(modificar_livro)
+            if nova_categoria != categoria_livro:
+                categorias[nova_categoria] = [novo_nome]
+                categorias[categoria_livro].remove(modificar_livro)
+                if len(categorias[categoria_livro]) == 0:
+                    del categorias[categoria_livro]
+                os.system('cls')
+                print('Informações atualizadas!')
+            else:
+                print(f"O livro {modificar_livro} não está na biblioteca, digite outro livro")
 
     elif escolha == '4':
         remover_livro = input("Digite o nome do livro que você deseja remover: ")
