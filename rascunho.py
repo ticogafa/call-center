@@ -69,7 +69,7 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
     elif escolha == '3':
         modificar_livro = input("Digite o nome do livro que você quer atualizar as informações: ")
         if modificar_livro in biblioteca:
-            novo_nome, autor_livro, nova_categoria, preco_livro = modificar()
+            novo_nome, autor_livro, nova_categoria, preco_livro = modificar(biblioteca, modificar_livro)
         if novo_nome != modificar_livro:
             biblioteca[novo_nome] = biblioteca.pop(modificar_livro)
             if nova_categoria != categoria_livro:
