@@ -22,8 +22,16 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
         nome_livro = input("Digite o nome do livro: ")
         autor_livro = input("Digite o autor do livro: ")
         categoria_livro = input("Digite a categoria do livro: ")
-        preco_livro = float(input("Digite o preço do livro: "))
-        os.system('cls')#colocamos um if para caso a Nathália escolha a opção 1 ela seja direcionada para a adição de um livro como consta da opção, além disso aplicamos a biblioteca os.system para limpar a quando o código for acionado.
+
+        while True:
+            try:
+                preco_livro = float(input("Digite o preço do livro: "))
+                break  # Se o número for válido, saia do loop
+            except ValueError:
+                print("Preço inválido. Tente novamente.")
+            else:
+                print("Escolha inválida. Tente novamente.")
+                os.system('cls')#colocamos um if para caso a Nathália escolha a opção 1 ela seja direcionada para a adição de um livro como consta da opção, além disso aplicamos a biblioteca os.system para limpar a quando o código for acionado.
 
         informacao_livro = {
             "autor": autor_livro,
