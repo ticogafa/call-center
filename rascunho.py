@@ -4,7 +4,12 @@ def modificar(biblioteca, modificar_livro):
     novo_nome = input("Redigite o nome do livro: ")
     autor_livro = input("Redigite o autor do livro: ")
     nova_categoria = input("Redigite a categoria do livro: ")
-    preco_livro = float(input("Redigite o preço do livro: "))
+    while True:
+            try:
+                preco_livro = float(input("Digite o preço do livro: "))
+                break  # Se o número for válido, saia do loop
+            except ValueError:
+                print("Preço inválido. Tente novamente.")
     biblioteca[modificar_livro]["categoria"] = nova_categoria
     biblioteca[modificar_livro]["autor"] = autor_livro
     biblioteca[modificar_livro]["preço"] = preco_livro
@@ -32,7 +37,6 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
         nome_livro = input("Digite o nome do livro: ")
         autor_livro = input("Digite o autor do livro: ")
         categoria_livro = input("Digite a categoria do livro: ")
-    
         while True:
             try:
                 preco_livro = float(input("Digite o preço do livro: "))
