@@ -18,7 +18,6 @@ def modificar(biblioteca, modificar_livro):
 dinheiro_livro = 0
 biblioteca = {}
 categorias = {}
-os.system('cls')#primeiramente importamos a biblioteca permitida os.systeam("clear") para limpar a tela com as informações, após isso determinamos algumas variáveis.
 
 while True:#inicamos o código com o while true para rodar enquanto Nathália não pedir para parar.
     
