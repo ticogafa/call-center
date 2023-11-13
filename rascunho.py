@@ -1,6 +1,6 @@
 import os
 os.system('cls')
-def modificar(biblioteca, modificar_livro):
+def modificar(biblioteca, modificar_livro):#ainda não entendi essa parte.Rafael
     novo_nome = input("Redigite o nome do livro: ")
     autor_livro = input("Redigite o autor do livro: ")
     nova_categoria = input("Redigite a categoria do livro: ")
@@ -32,15 +32,15 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
     escolha = input("Escolha uma opção: ")
     os.system('cls')
 
-    if escolha == '1':
+    if escolha == '1':#esse if serve para caso ela escolha a primeira opção o código rodar de maneira correta.
         nome_livro = input("Digite o nome do livro: ")
         autor_livro = input("Digite o autor do livro: ")
         categoria_livro = input("Digite a categoria do livro: ")
         while True:
-            try:
+            try:#aqui temos um tratamento de erro utilizamos o comando try para caso ocorra um erro possamos escolher o que vai aparecer na tela.
                 preco_livro = float(input("Digite o preço do livro: "))
                 break  # Se o número for válido, saia do loop
-            except ValueError:
+            except ValueError:#O comando "except ValueError" serve para caso ocorra algum erro a mensagem selecionada ira aparecer na tela.
                 print("Preço inválido. Tente novamente.")
         informacao_livro = {
             "autor": autor_livro,
@@ -55,7 +55,7 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
         else:
             categorias[categoria_livro] = [nome_livro]
 
-    elif escolha == '2':#este elif foi utilizado para caso Nathália escola a opção 2.
+    elif escolha == '2':#O comando "elif,foi utilizado para caso Nathália escolha a opção 2.
         os.system('cls')
         print("Biblioteca de livros por categoria:")
         dinheiro_livro = sum(informacao_livro['preço'] for informacao_livro in biblioteca.values())
@@ -124,6 +124,7 @@ while True:#inicamos o código com o while true para rodar enquanto Nathália n�
             print(f"A categoria {categoria_escolhida} não contém livros na biblioteca.")
     
     elif escolha == '6':
+        print("Até a próxima, boa leitura :)")
         break#o comando break foi utilizado para caso Nathália escolha a opção de parar assim encerrando o código.
     else:
         print("Opção inválida. Digite um número de 1 a 6.")#Caso Nathália não escolha nenhum dos números possibilitados o programa colocara está frase.
