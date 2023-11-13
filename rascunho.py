@@ -1,6 +1,6 @@
 import os
 os.system('cls')
-def modificar(biblioteca, modificar_livro):#ainda não entendi essa parte.Rafael
+def modificar(biblioteca, modificar_livro):
     novo_nome = input("Redigite o nome do livro: ")
     autor_livro = input("Redigite o autor do livro: ")
     nova_categoria = input("Redigite a categoria do livro: ")
