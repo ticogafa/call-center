@@ -38,6 +38,7 @@ def carregar_biblioteca():
     return biblioteca_carregada, categorias_carregadas
 
 def adicionar_livro(biblioteca, categorias):
+    os.system('cls')
     nome_livro = input("Digite o nome do livro: ")
     autor_livro = input("Digite o autor do livro: ")
     categoria_livro = input("Digite a categoria do livro: ")
@@ -65,7 +66,7 @@ def adicionar_livro(biblioteca, categorias):
     print("Livro adicionado com sucesso!")
 
 def visualizar_livros(biblioteca, categorias):
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls')
     print("Biblioteca de livros por categoria:")
     dinheiro_total = sum(info['preço'] for info in biblioteca.values())
     for categoria, livros in categorias.items():
@@ -81,8 +82,9 @@ def visualizar_livros(biblioteca, categorias):
             else:
                 print(f"O livro '{livro}' não está mais na biblioteca.")
     print(f"Total gasto na biblioteca: {dinheiro_total}")
-
+# Parte 3 
 def atualizar_informacoes(biblioteca, categorias):
+    os.system('cls')
     modificar_livro = input("Digite o nome do livro que você quer atualizar as informações: ")
     if modificar_livro in biblioteca:
         novo_nome = input("Redigite o nome do livro: ")
@@ -93,7 +95,7 @@ def atualizar_informacoes(biblioteca, categorias):
 
         autor_livro = input("Redigite o autor do livro: ")
         nova_categoria = input("Redigite a categoria do livro: ")
-# Parte 3      
+     
         while True:
             try:
                 preco_livro = float(input("Digite o preço do livro: "))
@@ -126,9 +128,10 @@ def atualizar_informacoes(biblioteca, categorias):
         salvar_biblioteca(biblioteca)
     else:
         print(f"O livro {modificar_livro} não está na biblioteca, digite outro livro")
-
+#Parte 4
 
 def excluir_livro(biblioteca, categorias):
+    os.system('cls')
     remover_livro = input("Digite o nome do livro que você deseja remover: ")
     if remover_livro in biblioteca:
         categoria_livro = biblioteca[remover_livro]["categoria"]
@@ -139,10 +142,10 @@ def excluir_livro(biblioteca, categorias):
         print('Livro removido!')
     else:
         print(f"O livro {remover_livro} não está na biblioteca, digite outro livro")
-#Parte 4
+
 def extrato_por_categoria(biblioteca, categorias):
     categoria_escolhida = input("Digite a categoria para ver o extrato: ")
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls')
     if categoria_escolhida in categorias:
         livros_categoria = categorias[categoria_escolhida]
         dinheiro_categoria = sum([biblioteca[livro]['preço'] for livro in livros_categoria])
@@ -158,20 +161,21 @@ def extrato_por_categoria(biblioteca, categorias):
         print(f"A categoria {categoria_escolhida} não contém livros na biblioteca.")
 
 def extrato_por_autor(biblioteca, categorias):
+    os.system('cls')
     autor_busca = input("Digite o nome do autor que deseja buscar: ")
-        for livro, informacao_livro in biblioteca.items():
-            if informacao_livro['autor'] == autor_busca:
-                print(f"\nNome do livro: {livro}")
-                print(f"Categoria: {informacao_livro['categoria']}")
-                print(f"Preço: {informacao_livro['preço']}")
-                print()
-
+    for livro, informacao_livro in biblioteca.items():
+      if informacao_livro['autor'] == autor_busca:
+        print(f"\nNome do livro: {livro}")
+        print(f"Categoria: {informacao_livro['categoria']}")
+        print(f"Preço: {informacao_livro['preço']}")
+        print()
+#Parte 5
 def main():
     biblioteca, categorias = carregar_biblioteca()
 
  
     while True:
-        os.system('cls' if os.name == 'nt' else 'clear')
+        os.system('cls')
         print("Biblioteca de Livros")
         print("1 - Adicionar um livro")
         print("2 - Visualizar livros por categoria")
