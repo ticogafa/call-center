@@ -157,9 +157,19 @@ def extrato_por_categoria(biblioteca, categorias):
     else:
         print(f"A categoria {categoria_escolhida} não contém livros na biblioteca.")
 
+def extrato_por_autor(biblioteca, categorias):
+    autor_busca = input("Digite o nome do autor que deseja buscar: ")
+        for livro, informacao_livro in biblioteca.items():
+            if informacao_livro['autor'] == autor_busca:
+                print(f"\nNome do livro: {livro}")
+                print(f"Categoria: {informacao_livro['categoria']}")
+                print(f"Preço: {informacao_livro['preço']}")
+                print()
+
 def main():
     biblioteca, categorias = carregar_biblioteca()
 
+ 
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Biblioteca de Livros")
@@ -168,7 +178,8 @@ def main():
         print("3 - Atualizar informações do livro")
         print("4 - Excluir um livro")
         print("5 - Visualizar extrato por categoria")
-        print("6 - Sair")
+        print("6 - Visualizar livros por autor")
+        print("7 - Sair")
 
         escolha = input("Escolha uma opção: ")
 
@@ -183,6 +194,8 @@ def main():
         elif escolha == '5':
             extrato_por_categoria(biblioteca, categorias)
         elif escolha == '6':
+            extrato_por_autor(biblioteca,categorias)
+        elif escolha == '7':
             salvar_biblioteca(biblioteca)
             print("Até a próxima, boa leitura :)")
             break
