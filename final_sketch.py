@@ -1,3 +1,4 @@
+#Parte 1
 import os
 
 def salvar_biblioteca(biblioteca):
@@ -40,7 +41,7 @@ def adicionar_livro(biblioteca, categorias):
     nome_livro = input("Digite o nome do livro: ")
     autor_livro = input("Digite o autor do livro: ")
     categoria_livro = input("Digite a categoria do livro: ")
-    
+# Parte 2    
     while True:
         try:
             preco_livro = float(input("Digite o preço do livro: "))
@@ -92,7 +93,7 @@ def atualizar_informacoes(biblioteca, categorias):
 
         autor_livro = input("Redigite o autor do livro: ")
         nova_categoria = input("Redigite a categoria do livro: ")
-        
+# Parte 3      
         while True:
             try:
                 preco_livro = float(input("Digite o preço do livro: "))
@@ -138,7 +139,7 @@ def excluir_livro(biblioteca, categorias):
         print('Livro removido!')
     else:
         print(f"O livro {remover_livro} não está na biblioteca, digite outro livro")
-
+#Parte 4
 def extrato_por_categoria(biblioteca, categorias):
     categoria_escolhida = input("Digite a categoria para ver o extrato: ")
     os.system('cls' if os.name == 'nt' else 'clear')
