@@ -15,7 +15,7 @@ def carregar_biblioteca():
     biblioteca_carregada = {}
     categorias_carregadas = {}
     try:
-        with open('biblioteca.txt', 'r') as arquivo:
+        with open('biblioteca.txt', 'r', encoding="utf8") as arquivo:
             for linha in arquivo:
                 dados = linha.strip().split('|')
                 if len(dados) == 4:
@@ -92,16 +92,16 @@ def visualizar_livros(biblioteca, categorias):
             if livro.lower() in map(str.lower, biblioteca.keys()):
                 informacao_livro = biblioteca[livro]
                 print(f"Nome do livro: {livro}")
-                print_linha_embelezada()
+                
                 print(f"Autor: {informacao_livro['autor']}")
-                print_linha_embelezada()
+                
                 print(f"Preço: {informacao_livro['preço']}")
                 print()
                 print_linha_embelezada()
             else:
                 print(f"O livro '{livro}' não está mais na biblioteca.")
                 print_linha_embelezada()
-    print(f"Total gasto na biblioteca: {dinheiro_total}")
+    print(f"Total gasto na biblioteca: {dinheiro_total:.2f}")
     print_linha_embelezada()
 #Parte 3
 def atualizar_informacoes(biblioteca, categorias):
@@ -163,25 +163,31 @@ def extrato_por_categoria(biblioteca, categorias):
     categoria_escolhida = input("Digite a categoria para ver o extrato: ").lower()
     print_linha_embelezada()
     os.system('cls' if os.name == 'nt' else 'clear')
-    if categoria_escolhida in map(str.lower, categorias.keys()):
-        livros_categoria = categorias[categoria_escolhida]
-        dinheiro_categoria = sum([biblioteca[livro]['preço'] for livro in livros_categoria])
-        print(f"Extrato da categoria: {categoria_escolhida}")
-        print_linha_embelezada()
-        for livro in categorias[categoria_escolhida]:
-            informacao_livro = biblioteca[livro]
-            print(f"Nome do livro: {livro}")
+    try:
+        # Convertendo as chaves (categorias) para minúsculas para busca insensível a maiúsculas/minúsculas
+        categorias_lower = {key.lower(): categorias[key] for key in categorias.keys()}
+        
+        if categoria_escolhida in categorias_lower:
+            livros_categoria = categorias_lower[categoria_escolhida]
+            dinheiro_categoria = sum([biblioteca[livro]['preço'] for livro in livros_categoria])
+            print(f"Extrato da categoria: {categoria_escolhida}")
             print_linha_embelezada()
-            print(f"Autor: {informacao_livro['autor']}")
+            for livro in livros_categoria:
+                informacao_livro = biblioteca[livro]
+                print(f"Nome do livro: {livro}")
+                
+                print(f"Autor: {informacao_livro['autor']}")
+                
+                print(f"Preço: {informacao_livro['preço']}")
+                print()
+                print_linha_embelezada()
+            print(f"Total gasto na categoria: {dinheiro_categoria:.2f}")
             print_linha_embelezada()
-            print(f"Preço: {informacao_livro['preço']}")
-            print()
+        else:
+            print(f"A categoria {categoria_escolhida} não contém livros na biblioteca.")
             print_linha_embelezada()
-        print(f"Total gasto na categoria: {dinheiro_categoria}")
-        print_linha_embelezada()
-    else:
-        print(f"A categoria {categoria_escolhida} não contém livros na biblioteca.")
-        print_linha_embelezada()
+    except KeyError:
+        print("Categoria inválida")
 
 def extrato_por_autor(biblioteca, categorias):
     autor_busca = input("Digite o nome do autor que deseja buscar: ").lower()
@@ -190,10 +196,13 @@ def extrato_por_autor(biblioteca, categorias):
     found_books = False
     for livro, informacao_livro in biblioteca.items():
         if informacao_livro['autor'].lower() == autor_busca:
+
+            print(f"\nLivros do autor {informacao_livro['autor']}")
+            print_linha_embelezada()
             print(f"\nNome do livro: {livro}")
-            print_linha_embelezada()
+            
             print(f"Categoria: {informacao_livro['categoria']}")
-            print_linha_embelezada()
+            
             print(f"Preço: {informacao_livro['preço']}")
             print()
             print_linha_embelezada()
@@ -207,7 +216,7 @@ def main():
     biblioteca, categorias = carregar_biblioteca()
 
     while True:
-        os.system('cls' if os.name == 'nt' else 'clear')
+        
         print("Biblioteca de Livros")
         print("1 - Adicionar um livro")
         print("2 - Visualizar livros por categoria")

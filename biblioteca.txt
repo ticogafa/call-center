@@ -1,85 +1,71 @@
-1984, George Orwell, Fic√ß√£o Cient√≠fica, 25.90
-Orgulho e Preconceito, Jane Austen, Romance Cl√°ssico, 18.50
-Cem Anos de Solid√£o, Gabriel Garc√≠a M√°rquez, Fic√ß√£o Liter√°ria, 32.00
-A Revolu√ß√£o Dos Bichos, George Orwell, Fic√ß√£o Pol√≠tica, 20.30
-O Senhor dos An√©is: A Trilogia Completa, J.R.R. Tolkien, Fantasia, 45.00
-Crime e Castigo, Fi√≥dor Dostoi√©vski, Literatura Cl√°ssica, 28.75
-Dom Casmurro, Machado De Assis, Cl√°ssico Brasileiro, 22.90
-A Menina Que Roubava Livros, Markus Zusak, Fic√ß√£o Hist√≥rica, 19.99
-O Pequeno Pr√≠ncipe, Antoine de Saint-Exup√©ry, Literatura Infantil, 15.60
-As Cr√¥nicas De N√°rnia, C.S. Lewis, Fantasia Infantil, 30.20
-A Saga Do Tigre, Colleen Houck, Fic√ß√£o Juvenil, 14.75
-A Ilha Do Tesouro, Robert Louis Stevenson, Aventura Cl√°ssica, 17.30
-Anna Karenina, Lev Tolst√≥i, Romance Cl√°ssico, 24.80
-A Sombra Do Vento, Carlos Ruiz Zaf√≥n, Mist√©rio, 21.45
-O Alquimista, Paulo Coelho, Autoajuda, 27.00
-A Divina Com√©dia, Dante Alighieri, Poesia √âpica, 16.99
-A Hora Da Estrela, Clarice Lispector, Literatura Brasileira, 23.50
-Frankenstein, Mary Shelley, Terror G√≥tico, 18.25
-A Cor P√∫rpura, Alice Walker, Fic√ß√£o Feminista, 20.70
-O Retrato De Dorian Gray, Oscar Wilde, Fic√ß√£o G√≥tica, 14.90
-Olavo De Carvalho: O Jardim das Afilosofias, Rodrigo Constantino, Filosofia Contempor√¢nea, 32.10
-A Sombra do Vento, Carlos Ruiz Zaf√≥n, Mist√©rio G√≥tico, 21.99
-O Castelo De Vidro, Jeannette Walls, Memoir, 26.30
-Para Todos Os Garotos Que J√° Amei, Jenny Han, Romance Juvenil, 15.20
-A Guerra Dos Tronos, George R.R. Martin, Fic√ß√£o √âpica, 33.45
-A Filosofia Do Tolkien, Peter Kreeft, Filosofia Fant√°stica, 28.80
-A Origem Das Esp√©cies, Charles Darwin, Ci√™ncia, 19.95
-A Sociedade Do Anel, J.R.R. Tolkien, Fantasia √âpica, 14.50
-O Cora√ß√£o do Rei, Stephen King, Terror, 24.25
-Eclipse, Stephenie Meyer, Fic√ß√£o Vampiresca, 16.70
-The Silent Patient, Alex Michaelides, Suspense Psicol√≥gico, 22.00
-A Cidade Do Sol, Khaled Hosseini, Fic√ß√£o Hist√≥rica, 25.50
-Harry Potter e a Pedra Filosofal, J.K. Rowling, Fantasia Infantil, 21.20
-A Dupla Chama, Paulo Coelho, Autoajuda Espiritual, 30.00
-Onze Minutos, Paulo Coelho, Romance Er√≥tico, 17.90
-O Mundo de Sofia, Jostein Gaarder, Fic√ß√£o Filos√≥fica, 26.80
-A Revolta de Atlas, Ayn Rand, Romance Filos√≥fico, 29.40
-O Principezinho, Antoine de Saint-Exup√©ry, Literatura Infantil, 14.60
-A Arte da Guerra, Sun Tzu, Estrat√©gia Militar, 12.75
-A Montanha M√°gica, Thomas Mann, Fic√ß√£o Introspectiva, 31.20
-O Nome do Vento, Patrick Rothfuss, Fantasia √âpica, 29.90
-O Processo, Franz Kafka, Fic√ß√£o Pol√≠tica, 16.50
-As Aventuras de Sherlock Holmes, Arthur Conan Doyle, Mist√©rio, 19.75
-O Leopardo, Giuseppe Tomasi di Lampedusa, Romance Hist√≥rico, 24.30
-O Conto da Aia, Margaret Atwood, Fic√ß√£o Dist√≥pica, 27.40
-Grande Sert√£o: Veredas, Guimar√£es Rosa, Literatura Brasileira, 31.50
-O Senhor das Moscas, William Golding, Fic√ß√£o Psicol√≥gica, 20.20
-Moby Dick, Herman Melville, Aventura Mar√≠tima, 23.60
-O C√≥digo Da Vinci, Dan Brown, Mist√©rio, 18.99
-A Estrada, Cormac McCarthy, Fic√ß√£o P√≥s-Apocal√≠ptica, 22.85
-A Revolu√ß√£o dos Bichos, George Orwell, S√°tira Pol√≠tica, 14.60
-A Peste, Albert Camus, Fic√ß√£o Existencialista, 21.90
-As Vinhas da Ira, John Steinbeck, Fic√ß√£o Social, 25.75
-O Conto de Inverno, William Shakespeare, Teatro, 17.30
-As Mentiras que os Homens Contam, Luis Fernando Verissimo, Contos Humor√≠sticos, 16.80
-Triste Fim de Policarpo Quaresma, Lima Barreto, Romance Sat√≠rico, 19.25
-O Poder do H√°bito, Charles Duhigg, Psicologia, 26.50
-Fahrenheit 451, Ray Bradbury, Fic√ß√£o Dist√≥pica, 20.00
-A Metamorfose, Franz Kafka, Fic√ß√£o Surrealista, 15.40
-O M√©dico e o Monstro, Robert Louis Stevenson, Terror Psicol√≥gico, 18.20
-Dr√°cula, Bram Stoker, Terror G√≥tico, 22.70
-A Sangue Frio, Truman Capote, N√£o Fic√ß√£o, 24.90
-Admir√°vel Mundo Novo, Aldous Huxley, Fic√ß√£o Dist√≥pica, 26.30
-O Estrangeiro, Albert Camus, Romance Filos√≥fico, 19.80
-O Lobo do Mar, Jack London, Aventura, 21.60
-O Sol √© Para Todos, Harper Lee, Romance Social, 18.45
-A M√£o Esquerda da Escurid√£o, Ursula K. Le Guin, Fic√ß√£o Cient√≠fica, 23.75
-O Pr√≠ncipe, Nicolau Maquiavel, Filosofia Pol√≠tica, 14.99
-O Mundo Assombrado pelos Dem√¥nios, Carl Sagan, Ci√™ncia Popular, 28.20
-O Senhor dos An√©is: As Duas Torres, J.R.R. Tolkien, Fantasia √âpica, 29.50
-Dr. Jekyll e Mr. Hyde, Robert Louis Stevenson, Fic√ß√£o G√≥tica, 16.80
-1984, George Orwell, Fic√ß√£o Dist√≥pica, 17.90
-O M√°gico de Oz, L. Frank Baum, Fantasia Infantil, 13.60
-A B√≠blia Sagrada, Diversos Autores, Religi√£o, 35.00
-Viagem ao Centro da Terra, J√∫lio Verne, Fic√ß√£o Cient√≠fica, 18.75
-O Processo, Franz Kafka, Fic√ß√£o Existencialista, 20.25
-O Jogo do Anjo, Carlos Ruiz Zaf√≥n, Mist√©rio G√≥tico, 22.99
-O M√©dico, Noah Gordon, Romance Hist√≥rico, 26.80
-O Pequeno Livro da Calma, Paul Wilson, Autoajuda, 12.50
-A Arte da Felicidade, Dalai Lama, Espiritualidade, 24.00
-
-
-
-
-
+1984|George Orwell|FicÁ„o|25.9
+Orgulho e Preconceito|Jane Austen|Romance|18.5
+Cem Anos de Solid„o|Gabriel GarcÌa M·rquez|FicÁ„o|32.0
+O Senhordos AnÈis: A Trilogia Completa|J.R.R. Tolkien|Fantasia|45.0
+Crime e Castigo|FiÛdor DostoiÈvski|Literatura|28.75
+Dom Casmurro|Machado De Assis|Cl·ssico|22.9
+A Menina Que Roubava Livros|Markus Zusak|FicÁ„o|19.99
+O Pequeno PrÌncipe|Antoine de Saint-ExupÈry|Literatura|15.6
+As CrÙnicas De N·rnia|C.S. Lewis|Fantasia|30.2
+A Saga Do Tigre|Colleen Houck|FicÁ„o|14.75
+A Ilha Do Tesouro|Robert Louis Stevenson|Aventura|17.3
+Anna Karenina|Lev TolstÛi|Romance|24.8
+A Sombra Do Vento|Carlos Ruiz ZafÛn|MistÈrio|21.45
+O Alquimista|Paulo Coelho|Autoajuda|27.0
+A Divina ComÈdia|Dante Alighieri|Poesia|16.99
+A Hora Da Estrela|Clarice Lispector|Literatura|23.5
+Frankenstein|Mary Shelley|Terror|18.25
+A Cor P˙rpura|Alice Walker|FicÁ„o|20.7
+O Retrato De Dorian Gray|Oscar Wilde|FicÁ„o|14.9
+Olavo De Carvalho: O Jardim das Afilosofias|Rodrigo Constantino|Filosofia|32.1
+O Castelo De Vidro|Jeannette Walls|Memoir|26.3
+Para Todos Os Garotos Que J· Amei|Jenny Han|Romance|15.2
+A Guerra Dos Tronos|George R.R. Martin|FicÁ„o|33.45
+A Filosofia Do Tolkien|Peter Kreeft|Filosofia|28.8
+A Origem Das EspÈcies|Charles Darwin|CiÍncia|19.95
+A Sociedade Do Anel|J.R.R. Tolkien|Fantasia|14.5
+O CoraÁ„o do Rei|Stephen King|Terror|24.25
+Eclipse|Stephenie Meyer|FicÁ„o|16.7
+The Silent Patient|Alex Michaelides|Suspense|22.0
+A Cidade Do Sol|Khaled Hosseini|FicÁ„o|25.5
+Harry Potter e a Pedra Filosofal|J.K. Rowling|Fantasia|21.2
+A Dupla Chama|Paulo Coelho|Autoajuda|30.0
+Onze Minutos|Paulo Coelho|Romance|17.9
+O Mundo de Sofia|Jostein Gaarder|FicÁ„o|26.8
+A Revolta de Atlas|Ayn Rand|Romance|29.4
+A Arte da Guerra|Sun Tzu|EstratÈgia|12.75
+A Montanha M·gica|Thomas Mann|FicÁ„o|31.2
+O Nome do Vento|Patrick Rothfuss|Fantasia|29.9
+O Processo|Franz Kafka|FicÁ„o|16.5
+A sAventuras de Sherlock Holmes|Arthur Conan Doyle|MistÈrio|19.75
+O Leopardo|Giuseppe Tomasi di Lampedusa|Romance|24.3
+O Conto da Aia|Margaret Atwood|FicÁ„o|27.4
+Grande Sert„o: Veredas|Guimar„es Rosa|Literatura|31.5
+O Senhor das Moscas|William Golding|FicÁ„o|20.2
+Moby Dick|Herman Melville|Aventura|23.6
+O CÛdigo Da Vinci|Dan Brown|MistÈrio|18.99
+A Estrada|Cormac McCarthy|FicÁ„o|22.85
+A RevoluÁ„o dos Bichos|George Orwell|S·tira|14.6
+A Peste|Albert Camus|FicÁ„o|21.9
+As Vinhas da Ira|John Steinbeck|FicÁ„o|25.75
+O Conto de Inverno|William Shakespeare|Teatro|17.3
+As Mentiras que os Homens Contam|Luis Fernando Verissimo|Contos|16.8
+Triste Fim de Policarpo Quaresma|Lima Barreto|Romance|19.25
+O Poder do H·bito|Charles Duhigg|Psicologia|26.5
+Fahrenheit 451|Ray Bradbury|FicÁ„o|20.0
+A Metamorfose|Franz Kafka|FicÁ„o|15.4
+O MÈdico e o Monstro|Robert Louis Stevenson|Terror|18.2
+Dr·cula|Bram Stoker|Terror|22.7
+A Sangue Frio|Truman Capote|N„o|24.9
+Admir·vel Mundo Novo|Aldous Huxley|FicÁ„o|26.3
+O Estrangeiro|Albert Camus|Romance|19.8
+O Lobo do Mar|Jack London|Aventura|21.6
+O Sol È Para Todos|Harper Lee|Romance|18.45
+A M„o Esquerda da Escurid„o|Ursula K. Le Guin|FicÁ„o|23.75
+O PrÌncipe|Nicolau Maquiavel|Filosofia|14.99
+O Mundo Assombrado pelos DemÙnios|Carl Sagan|CiÍncia|28.2
+O Senhor dos AnÈis: As Duas Torres|J.R.R. Tolkien|Fantasia|29.5
+Dr.Jekyll e Mr. Hyde|Robert Louis Stevenson|FicÁ„o|16.8
+O M·gico de Oz|L. Frank Baum|Fantasia|13.6
+A BÌblia Sagrada|Diversos Autores|Religi„o|35.0
+Viagem ao Centro da Terra|J˙lio Verne|FicÁ„o|18.75
