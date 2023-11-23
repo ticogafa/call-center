@@ -78,7 +78,7 @@ Fahrenheit 451|Ray Bradbury|Ficção|20.0
 A Metamorfose|Franz Kafka|Ficção|15.4
 O Médico e o Monstro|Robert Louis Stevenson|Terror|18.2
 Drácula|Bram Stoker|Terror|22.7
-A Sangue Frio|Truman Capote|Não|24.9
+A Sangue Frio|Truman Capote|Romance|24.9
 Admirável Mundo Novo|Aldous Huxley|Ficção|26.3
 O Estrangeiro|Albert Camus|Romance|19.8
 O Lobo do Mar|Jack London|Aventura|21.6
@@ -103,4 +103,5 @@ O Sofista|Platão|Filosofia|18.9
 Parmênides|Platão|Filosofia|16.7
 Filebo|Platão|Filosofia|17.3
 A Política|Platão|Filosofia|20.1
+
 
