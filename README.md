@@ -21,7 +21,7 @@ Execução:
 1.Certifique-se de ter o Python instalado.
 2.Clone ou baixe este repositório.
 3.Abra o terminal/prompt de comando na pasta do projeto.
-4.Execute o arquivo biblioteca_de_livros.py.
+4.Execute o arquivo biblioteca.py.
 
 Instruções de Uso:
 

@@ -1,71 +1,71 @@
-1984|George Orwell|Ficção|25.9
+1984|George Orwell|FicÃ§Ã£o|25.9
 Orgulho e Preconceito|Jane Austen|Romance|18.5
-Cem Anos de Solidão|Gabriel García Márquez|Ficção|32.0
-O Senhor dos Anéis: A Trilogia Completa|J.R.R. Tolkien|Fantasia|45.0
-Crime e Castigo|Fiódor Dostoiévski|Literatura|28.75
-Dom Casmurro|Machado De Assis|Clássico|22.9
-A Menina Que Roubava Livros|Markus Zusak|Ficção|19.99
-O Pequeno Príncipe|Antoine de Saint-Exupéry|Literatura|15.6
-As Crônicas De Nárnia|C.S. Lewis|Fantasia|30.2
-A Saga Do Tigre|Colleen Houck|Ficção|14.75
+Cem Anos de SolidÃ£o|Gabriel GarcÃ­a MÃ¡rquez|FicÃ§Ã£o|32.0
+O Senhor dos AnÃ©is: A Trilogia Completa|J.R.R. Tolkien|Fantasia|45.0
+Crime e Castigo|FiÃ³dor DostoiÃ©vski|Literatura|28.75
+Dom Casmurro|Machado De Assis|ClÃ¡ssico|22.9
+A Menina Que Roubava Livros|Markus Zusak|FicÃ§Ã£o|19.99
+O Pequeno PrÃ­ncipe|Antoine de Saint-ExupÃ©ry|Literatura|15.6
+As CrÃ´nicas De NÃ¡rnia|C.S. Lewis|Fantasia|30.2
+A Saga Do Tigre|Colleen Houck|FicÃ§Ã£o|14.75
 A Ilha Do Tesouro|Robert Louis Stevenson|Aventura|17.3
-Anna Karenina|Lev Tolstói|Romance|24.8
-A Sombra Do Vento|Carlos Ruiz Zafón|Mistério|21.45
+Anna Karenina|Lev TolstÃ³i|Romance|24.8
+A Sombra Do Vento|Carlos Ruiz ZafÃ³n|MistÃ©rio|21.45
 O Alquimista|Paulo Coelho|Autoajuda|27.0
-A Divina Comédia|Dante Alighieri|Poesia|16.99
+A Divina ComÃ©dia|Dante Alighieri|Poesia|16.99
 A Hora Da Estrela|Clarice Lispector|Literatura|23.5
 Frankenstein|Mary Shelley|Terror|18.25
-A Cor Púrpura|Alice Walker|Ficção|20.7
-O Retrato De Dorian Gray|Oscar Wilde|Ficção|14.9
+A Cor PÃºrpura|Alice Walker|FicÃ§Ã£o|20.7
+O Retrato De Dorian Gray|Oscar Wilde|FicÃ§Ã£o|14.9
 Olavo De Carvalho: O Jardim das Afilosofias|Rodrigo Constantino|Filosofia|32.1
 O Castelo De Vidro|Jeannette Walls|Memoir|26.3
-Para Todos Os Garotos Que Já Amei|Jenny Han|Romance|15.2
-A Guerra Dos Tronos|George R.R. Martin|Ficção|33.45
+Para Todos Os Garotos Que JÃ¡ Amei|Jenny Han|Romance|15.2
+A Guerra Dos Tronos|George R.R. Martin|FicÃ§Ã£o|33.45
 A Filosofia Do Tolkien|Peter Kreeft|Filosofia|28.8
-A Origem Das Espécies|Charles Darwin|Ciência|19.95
+A Origem Das EspÃ©cies|Charles Darwin|CiÃªncia|19.95
 A Sociedade Do Anel|J.R.R. Tolkien|Fantasia|14.5
-O Coração do Rei|Stephen King|Terror|24.25
-Eclipse|Stephenie Meyer|Ficção|16.7
+O CoraÃ§Ã£o do Rei|Stephen King|Terror|24.25
+Eclipse|Stephenie Meyer|FicÃ§Ã£o|16.7
 The Silent Patient|Alex Michaelides|Suspense|22.0
-A Cidade Do Sol|Khaled Hosseini|Ficção|25.5
+A Cidade Do Sol|Khaled Hosseini|FicÃ§Ã£o|25.5
 Harry Potter e a Pedra Filosofal|J.K. Rowling|Fantasia|21.2
 A Dupla Chama|Paulo Coelho|Autoajuda|30.0
 Onze Minutos|Paulo Coelho|Romance|17.9
-O Mundo de Sofia|Jostein Gaarder|Ficção|26.8
+O Mundo de Sofia|Jostein Gaarder|FicÃ§Ã£o|26.8
 A Revolta de Atlas|Ayn Rand|Romance|29.4
-A Arte da Guerra|Sun Tzu|Estratégia|12.75
-A Montanha Mágica|Thomas Mann|Ficção|31.2
+A Arte da Guerra|Sun Tzu|EstratÃ©gia|12.75
+A Montanha MÃ¡gica|Thomas Mann|FicÃ§Ã£o|31.2
 O Nome do Vento|Patrick Rothfuss|Fantasia|29.9
-O Processo|Franz Kafka|Ficção|16.5
-As Aventuras de Sherlock Holmes|Arthur Conan Doyle|Mistério|19.75
+O Processo|Franz Kafka|FicÃ§Ã£o|16.5
+As Aventuras de Sherlock Holmes|Arthur Conan Doyle|MistÃ©rio|19.75
 O Leopardo|Giuseppe Tomasi di Lampedusa|Romance|24.3
-O Conto da Aia|Margaret Atwood|Ficção|27.4
-Grande Sertão: Veredas|Guimarães Rosa|Literatura|31.5
-O Senhor das Moscas|William Golding|Ficção|20.2
+O Conto da Aia|Margaret Atwood|FicÃ§Ã£o|27.4
+Grande SertÃ£o: Veredas|GuimarÃ£es Rosa|Literatura|31.5
+O Senhor das Moscas|William Golding|FicÃ§Ã£o|20.2
 Moby Dick|Herman Melville|Aventura|23.6
-O Código Da Vinci|Dan Brown|Mistério|18.99
-A Estrada|Cormac McCarthy|Ficção|22.85
-A Revolução dos Bichos|George Orwell|Sátira|14.6
-A Peste|Albert Camus|Ficção|21.9
-As Vinhas da Ira|John Steinbeck|Ficção|25.75
+O CÃ³digo Da Vinci|Dan Brown|MistÃ©rio|18.99
+A Estrada|Cormac McCarthy|FicÃ§Ã£o|22.85
+A RevoluÃ§Ã£o dos Bichos|George Orwell|SÃ¡tira|14.6
+A Peste|Albert Camus|FicÃ§Ã£o|21.9
+As Vinhas da Ira|John Steinbeck|FicÃ§Ã£o|25.75
 O Conto de Inverno|William Shakespeare|Teatro|17.3
-As Mentiras que os Homens Contam|Luís Fernando Verissimo|Contos|16.8
+As Mentiras que os Homens Contam|LuÃ­s Fernando Verissimo|Contos|16.8
 Triste Fim de Policarpo Quaresma|Lima Barreto|Romance|19.25
-O Poder do Hábito|Charles Duhigg|Psicologia|26.5
-Fahrenheit 451|Ray Bradbury|Ficção|20.0
-A Metamorfose|Franz Kafka|Ficção|15.4
-O Médico e o Monstro|Robert Louis Stevenson|Terror|18.2
-Drácula|Bram Stoker|Terror|22.7
-A Sangue Frio|Truman Capote|Não|24.9
-Admirável Mundo Novo|Aldous Huxley|Ficção|26.3
+O Poder do HÃ¡bito|Charles Duhigg|Psicologia|26.5
+Fahrenheit 451|Ray Bradbury|FicÃ§Ã£o|20.0
+A Metamorfose|Franz Kafka|FicÃ§Ã£o|15.4
+O MÃ©dico e o Monstro|Robert Louis Stevenson|Terror|18.2
+DrÃ¡cula|Bram Stoker|Terror|22.7
+A Sangue Frio|Truman Capote|NÃ£o|24.9
+AdmirÃ¡vel Mundo Novo|Aldous Huxley|FicÃ§Ã£o|26.3
 O Estrangeiro|Albert Camus|Romance|19.8
 O Lobo do Mar|Jack London|Aventura|21.6
-O Sol é Para Todos|Harper Lee|Romance|18.45
-A Mão Esquerda da Escuridão|Ursula K. Le Guin|Ficção|23.75
-O Príncipe|Nicolau Maquiavel|Filosofia|14.99
-O Mundo Assombrado pelos Demônios|Carl Sagan|Ciência|28.2
-O Senhor dos Anéis: As Duas Torres|J.R.R. Tolkien|Fantasia|29.5
-Dr. Jekyll e Mr. Hyde|Robert Louis Stevenson|Ficção|16.8
-O Mágico de Oz|L. Frank Baum|Fantasia|13.6
-A Bíblia Sagrada|Diversos Autores|Religião|35.0
-Viagem ao Centro da Terra|Júlio Verne|Ficção|18.75
+O Sol Ã© Para Todos|Harper Lee|Romance|18.45
+A MÃ£o Esquerda da EscuridÃ£o|Ursula K. Le Guin|FicÃ§Ã£o|23.75
+O PrÃ­ncipe|Nicolau Maquiavel|Filosofia|14.99
+O Mundo Assombrado pelos DemÃ´nios|Carl Sagan|CiÃªncia|28.2
+O Senhor dos AnÃ©is: As Duas Torres|J.R.R. Tolkien|Fantasia|29.5
+Dr. Jekyll e Mr. Hyde|Robert Louis Stevenson|FicÃ§Ã£o|16.8
+O MÃ¡gico de Oz|L. Frank Baum|Fantasia|13.6
+A BÃ­blia Sagrada|Diversos Autores|ReligiÃ£o|35.0
+Viagem ao Centro da Terra|JÃºlio Verne|FicÃ§Ã£o|18.75
