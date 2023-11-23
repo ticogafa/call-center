@@ -166,7 +166,7 @@ def excluir_livro(biblioteca, categorias):
         print_linha_embelezada()
 #Então se o livro que o usuário deseja remover estiver em "livro" ele será removido, caso contrário ele retorna para a aba main.****
 
-
+#elif 5
 # Função para extrair informações por categoria---------------------------------------------------------------------------------------
 def extrato_por_categoria(biblioteca, categorias):
     categoria_escolhida = input("Digite a categoria para ver o extrato: ").lower()
@@ -195,7 +195,7 @@ def extrato_por_categoria(biblioteca, categorias):
             print_linha_embelezada()
     except KeyError:
         print("Categoria inválida")
-
+#elif 6
 #Função para extrair informações por autor--------------------------------------------------------------------------------------------
 def extrato_por_autor(biblioteca, categorias):
     autor_busca = input("Digite o nome do autor que deseja buscar: ").lower()
