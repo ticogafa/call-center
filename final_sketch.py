@@ -4,11 +4,11 @@ import os
 def print_linha_embelezada():
     tamanho_terminal = 70
     linha = '-' * tamanho_terminal
-    print(f"\n{linha}\n")
+    print(f"\n{linha}\n") 
 
 # Função para salvar a biblioteca em um arquivo---------------------------------------------------------------------------------------
 def salvar_biblioteca(biblioteca):
-    with open('biblioteca.txt', 'w') as arquivo:
+    with open('biblioteca.txt', 'w') as arquivo: # Abrindo o arquivo biblioteca.txt onde ficaram armazenadas as informações ao salvar-
         for livro, info in biblioteca.items():
             arquivo.write(f"{livro}|{info['autor']}|{info['categoria']}|{info['preço']}\n")
 
@@ -17,7 +17,7 @@ def carregar_biblioteca():
     biblioteca_carregada = {}
     categorias_carregadas = {}
     try:
-        with open('biblioteca.txt', 'r', encoding="utf8") as arquivo:
+        with open('biblioteca.txt', 'r', encoding="utf8") as arquivo: #Abrindo o arquivo "biblioteca.txt" para buscar livros ---------
             for linha in arquivo:
                 dados = linha.strip().split('|')
                 if len(dados) == 4:
@@ -75,9 +75,9 @@ def adicionar_livro(biblioteca, categorias):
     biblioteca[nome_livro] = informacao_livro
 
     if categoria_livro in categorias:
-        categorias[categoria_livro].append(nome_livro)
+        categorias[categoria_livro].append(nome_livro) 
     else:
-        categorias[categoria_livro] = [nome_livro]
+        categorias[categoria_livro] = [nome_livro] #Caso a categoria ainda não existir-------------------------------------------------
     print_linha_embelezada()
     print("Livro adicionado com sucesso!")
     print_linha_embelezada()
@@ -88,7 +88,7 @@ def visualizar_livros(biblioteca, categorias):
     print("Biblioteca de livros por categoria:")
     print_linha_embelezada()
     dinheiro_total = sum(info['preço'] for info in biblioteca.values())
-    for categoria, livros in categorias.items():
+    for categoria, livros in categorias.items(): 
         print(f"Categoria: {categoria}")
         print_linha_embelezada()
         for livro in livros:
@@ -110,7 +110,7 @@ def visualizar_livros(biblioteca, categorias):
 def atualizar_informacoes(biblioteca, categorias):
     modificar_livro = input("Digite o nome do livro que você quer atualizar as informações: ").lower()
     print_linha_embelezada()
-    if modificar_livro in map(str.lower, biblioteca.keys()):
+    if modificar_livro in map(str.lower, biblioteca.keys()): #Vendo se o livro está na biblioteca-----------------------------------
         nome_livro = [livro for livro in biblioteca.keys() if livro.lower() == modificar_livro][0]
 
         autor_livro = input("Redigite o autor do livro: ")
@@ -133,7 +133,7 @@ def atualizar_informacoes(biblioteca, categorias):
             "preço": preco_livro
         }
 #Atualiza na biblioteca as informações digitadas pelo usuário-------------------------------------------------------------------------
-        if nova_categoria != biblioteca[nome_livro]["categoria"]:
+        if nova_categoria != biblioteca[nome_livro]["categoria"]: #Vendo se algo mudou para alterar as informações que foram alteradas
             categorias[biblioteca[nome_livro]["categoria"]].remove(nome_livro)
             categorias[nova_categoria] = categorias.get(nova_categoria, []) + [nome_livro]
 
@@ -152,15 +152,9 @@ def excluir_livro(biblioteca, categorias):
     print_linha_embelezada()
     if remover_livro in map(str.lower, biblioteca.keys()):
 #A função map permite aplicar uma função a cada item de uma lista e coletar os resultados em um novo iterador, sem alterar a lista original, neste caso foi usado lower em todas as strings. ****
-        
-        
-        
         nome_livro = [livro for livro in biblioteca.keys() if livro.lower() == remover_livro][0]
         categoria_livro = biblioteca[nome_livro]["categoria"]
 #Para cada item na sequência_de_itens, a expressão será aplicada para gerar um novo elemento na lista nova_lista.------------------- 
-
-
-
         biblioteca.pop(nome_livro)
         categorias[categoria_livro].remove(nome_livro)
         if len(categorias[categoria_livro]) == 0:
@@ -187,7 +181,7 @@ def extrato_por_categoria(biblioteca, categorias):
             dinheiro_categoria = sum([biblioteca[livro]['preço'] for livro in livros_categoria])
             print(f"Extrato da categoria: {categoria_escolhida}")
             print_linha_embelezada()
-            for livro in livros_categoria:
+            for livro in livros_categoria: #Printando na tela os livros por categoria-------------------------------------------------
                 informacao_livro = biblioteca[livro]
                 print(f"Nome do livro: {livro}")
                 print(f"Autor: {informacao_livro['autor']}")
@@ -226,7 +220,7 @@ def extrato_por_autor(biblioteca, categorias):
 
 # Função principal que controla o menu e as interações com o usuário------------------------------------------------------------------
 def main():
-    biblioteca, categorias = carregar_biblioteca()
+    biblioteca, categorias = carregar_biblioteca() 
 
     while True:
         
