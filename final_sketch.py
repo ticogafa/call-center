@@ -34,7 +34,7 @@ def carregar_biblioteca():
 # Atualiza as categorias--------------------------------------------------------------------------------------------------------------
                         if categoria_livro in categorias_carregadas:#verificar se a categoria existe, se já existe adiciona o livro a ela.
                             categorias_carregadas[categoria_livro].append(nome_livro)
-                        else:#caso categoria for inexistente será criada uma
+                        else:#caso categoria for inexistente será criada uma----------------------------------------------------------
                             categorias_carregadas[categoria_livro] = [nome_livro]
                     except ValueError:
                         print(f"Erro ao converter o preço do livro {nome_livro}.")
@@ -167,7 +167,7 @@ def excluir_livro(biblioteca, categorias):
 #Então se o livro que o usuário deseja remover estiver em "livro" ele será removido, caso contrário ele retorna para a aba main.****
 
 
-# Função para extrair informações por categoria
+# Função para extrair informações por categoria---------------------------------------------------------------------------------------
 def extrato_por_categoria(biblioteca, categorias):
     categoria_escolhida = input("Digite a categoria para ver o extrato: ").lower()
     print_linha_embelezada()
