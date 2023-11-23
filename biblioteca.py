@@ -205,7 +205,7 @@ def extrato_por_autor(biblioteca, categorias):
     for livro, informacao_livro in biblioteca.items():
         if informacao_livro['autor'].lower() == autor_busca:
 #Ele vai percorrer "informacao_livro" dentro da biblioteca, e conferir se o autor digitado está no banco de dados---------------------
-            print(f"\nLivros do autor {informacao_livro['autor']}")
+            print(f"\n{informacao_livro['autor']}:")
             print_linha_embelezada()
             print(f"\nNome do livro: {livro}")
             print(f"Categoria: {informacao_livro['categoria']}")
