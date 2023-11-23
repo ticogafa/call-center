@@ -97,13 +97,13 @@ def visualizar_livros(biblioteca, categorias):
                 informacao_livro = biblioteca[livro]
                 print(f"Nome do livro: {livro}")
                 print(f"Autor: {informacao_livro['autor']}")
-                print(f"Preço: {informacao_livro['preço']} R$")
+                print(f"Preço: R${informacao_livro['preço']}")
                 print()
                 print_linha_embelezada()
             else:
                 print(f"O livro '{livro}' não está mais na biblioteca.")
                 print_linha_embelezada()
-    print(f"Total gasto na biblioteca: {dinheiro_total:.2f} R$")
+    print(f"Total gasto na biblioteca: R${dinheiro_total:.2f}")
     print_linha_embelezada()
 
 # Função para atualizar informações de um livro na biblioteca-----------------------------------------------------------------------
