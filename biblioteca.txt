@@ -1,7 +1,7 @@
 1984|George Orwell|Ficção|25.9
 Orgulho e Preconceito|Jane Austen|Romance|18.5
 Cem Anos de Solidão|Gabriel García Márquez|Ficção|32.0
-O Senhordos Anéis: A Trilogia Completa|J.R.R. Tolkien|Fantasia|45.0
+O Senhor dos Anéis: A Trilogia Completa|J.R.R. Tolkien|Fantasia|45.0
 Crime e Castigo|Fiódor Dostoiévski|Literatura|28.75
 Dom Casmurro|Machado De Assis|Clássico|22.9
 A Menina Que Roubava Livros|Markus Zusak|Ficção|19.99
@@ -37,7 +37,7 @@ A Arte da Guerra|Sun Tzu|Estratégia|12.75
 A Montanha Mágica|Thomas Mann|Ficção|31.2
 O Nome do Vento|Patrick Rothfuss|Fantasia|29.9
 O Processo|Franz Kafka|Ficção|16.5
-A sAventuras de Sherlock Holmes|Arthur Conan Doyle|Mistério|19.75
+As Aventuras de Sherlock Holmes|Arthur Conan Doyle|Mistério|19.75
 O Leopardo|Giuseppe Tomasi di Lampedusa|Romance|24.3
 O Conto da Aia|Margaret Atwood|Ficção|27.4
 Grande Sertão: Veredas|Guimarães Rosa|Literatura|31.5
@@ -49,7 +49,7 @@ A Revolução dos Bichos|George Orwell|Sátira|14.6
 A Peste|Albert Camus|Ficção|21.9
 As Vinhas da Ira|John Steinbeck|Ficção|25.75
 O Conto de Inverno|William Shakespeare|Teatro|17.3
-As Mentiras que os Homens Contam|Luis Fernando Verissimo|Contos|16.8
+As Mentiras que os Homens Contam|Luís Fernando Verissimo|Contos|16.8
 Triste Fim de Policarpo Quaresma|Lima Barreto|Romance|19.25
 O Poder do Hábito|Charles Duhigg|Psicologia|26.5
 Fahrenheit 451|Ray Bradbury|Ficção|20.0
@@ -65,7 +65,7 @@ A Mão Esquerda da Escuridão|Ursula K. Le Guin|Ficção|23.75
 O Príncipe|Nicolau Maquiavel|Filosofia|14.99
 O Mundo Assombrado pelos Demônios|Carl Sagan|Ciência|28.2
 O Senhor dos Anéis: As Duas Torres|J.R.R. Tolkien|Fantasia|29.5
-Dr.Jekyll e Mr. Hyde|Robert Louis Stevenson|Ficção|16.8
+Dr. Jekyll e Mr. Hyde|Robert Louis Stevenson|Ficção|16.8
 O Mágico de Oz|L. Frank Baum|Fantasia|13.6
 A Bíblia Sagrada|Diversos Autores|Religião|35.0
 Viagem ao Centro da Terra|Júlio Verne|Ficção|18.75

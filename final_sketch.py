@@ -1,16 +1,18 @@
-# Parte 1
 import os
 
+# Função para imprimir uma linha decorativa-------------------------------------------------------------------------------------------
 def print_linha_embelezada():
     tamanho_terminal = 70
     linha = '-' * tamanho_terminal
     print(f"\n{linha}\n")
 
+# Função para salvar a biblioteca em um arquivo---------------------------------------------------------------------------------------
 def salvar_biblioteca(biblioteca):
     with open('biblioteca.txt', 'w') as arquivo:
         for livro, info in biblioteca.items():
             arquivo.write(f"{livro}|{info['autor']}|{info['categoria']}|{info['preço']}\n")
 
+# Função para carregar a biblioteca de um arquivo-------------------------------------------------------------------------------------
 def carregar_biblioteca():
     biblioteca_carregada = {}
     categorias_carregadas = {}
@@ -29,7 +31,7 @@ def carregar_biblioteca():
                         }
                         biblioteca_carregada[nome_livro] = info_livro
 
-                        # Atualiza as categorias
+# Atualiza as categorias--------------------------------------------------------------------------------------------------------------
                         if categoria_livro in categorias_carregadas:
                             categorias_carregadas[categoria_livro].append(nome_livro)
                         else:
@@ -44,7 +46,8 @@ def carregar_biblioteca():
         print("Arquivo 'biblioteca.txt' não encontrado.")
         print_linha_embelezada()
     return biblioteca_carregada, categorias_carregadas
-#Parte 2
+
+# Função para adicionar um livro à biblioteca-----------------------------------------------------------------------------------------
 def adicionar_livro(biblioteca, categorias):
     nome_livro = input("Digite o nome do livro: ")
     print_linha_embelezada()
@@ -68,7 +71,7 @@ def adicionar_livro(biblioteca, categorias):
         "categoria": categoria_livro,
         "preço": preco_livro
     }
-
+#Atualiza na biblioteca as informações digitadas pelo usuário-------------------------------------------------------------------------
     biblioteca[nome_livro] = informacao_livro
 
     if categoria_livro in categorias:
@@ -79,6 +82,7 @@ def adicionar_livro(biblioteca, categorias):
     print("Livro adicionado com sucesso!")
     print_linha_embelezada()
 
+# Função para visualizar os livros por categoria--------------------------------------------------------------------------------------
 def visualizar_livros(biblioteca, categorias):
     os.system('cls' if os.name == 'nt' else 'clear')
     print("Biblioteca de livros por categoria:")
@@ -88,13 +92,11 @@ def visualizar_livros(biblioteca, categorias):
         print(f"Categoria: {categoria}")
         print_linha_embelezada()
         for livro in livros:
-            # Verifica se o livro ainda está na biblioteca antes de tentar acessá-lo
+# Verifica se o livro ainda está na biblioteca antes de tentar acessá-lo-------------------------------------------------------------
             if livro.lower() in map(str.lower, biblioteca.keys()):
                 informacao_livro = biblioteca[livro]
                 print(f"Nome do livro: {livro}")
-                
                 print(f"Autor: {informacao_livro['autor']}")
-                
                 print(f"Preço: {informacao_livro['preço']}")
                 print()
                 print_linha_embelezada()
@@ -103,7 +105,8 @@ def visualizar_livros(biblioteca, categorias):
                 print_linha_embelezada()
     print(f"Total gasto na biblioteca: {dinheiro_total:.2f}")
     print_linha_embelezada()
-#Parte 3
+
+# Função para atualizar informações de um livro na biblioteca-----------------------------------------------------------------------
 def atualizar_informacoes(biblioteca, categorias):
     modificar_livro = input("Digite o nome do livro que você quer atualizar as informações: ").lower()
     print_linha_embelezada()
@@ -129,7 +132,7 @@ def atualizar_informacoes(biblioteca, categorias):
             "categoria": nova_categoria,
             "preço": preco_livro
         }
-
+#Atualiza na biblioteca as informações digitadas pelo usuário-------------------------------------------------------------------------
         if nova_categoria != biblioteca[nome_livro]["categoria"]:
             categorias[biblioteca[nome_livro]["categoria"]].remove(nome_livro)
             categorias[nova_categoria] = categorias.get(nova_categoria, []) + [nome_livro]
@@ -142,13 +145,22 @@ def atualizar_informacoes(biblioteca, categorias):
     else:
         print(f"O livro {modificar_livro} não está na biblioteca, digite outro livro")
         print_linha_embelezada()
-#Parte 4
+
+#Função para excluir um livro da biblioteca------------------------------------------------------------------------------------------
 def excluir_livro(biblioteca, categorias):
     remover_livro = input("Digite o nome do livro que você deseja remover: ").lower()
     print_linha_embelezada()
     if remover_livro in map(str.lower, biblioteca.keys()):
+#A função map permite aplicar uma função a cada item de uma lista e coletar os resultados em um novo iterador, sem alterar a lista original, neste caso foi usado lower em todas as strings. ****
+        
+        
+        
         nome_livro = [livro for livro in biblioteca.keys() if livro.lower() == remover_livro][0]
         categoria_livro = biblioteca[nome_livro]["categoria"]
+#Para cada item na sequência_de_itens, a expressão será aplicada para gerar um novo elemento na lista nova_lista.------------------- 
+
+
+
         biblioteca.pop(nome_livro)
         categorias[categoria_livro].remove(nome_livro)
         if len(categorias[categoria_livro]) == 0:
@@ -158,13 +170,16 @@ def excluir_livro(biblioteca, categorias):
     else:
         print(f"O livro {remover_livro} não está na biblioteca, digite outro livro")
         print_linha_embelezada()
+#Então se o livro que o usuário deseja remover estiver em "livro" ele será removido, caso contrário ele retorna para a aba main.****
 
+
+# Função para extrair informações por categoria
 def extrato_por_categoria(biblioteca, categorias):
     categoria_escolhida = input("Digite a categoria para ver o extrato: ").lower()
     print_linha_embelezada()
     os.system('cls' if os.name == 'nt' else 'clear')
     try:
-        # Convertendo as chaves (categorias) para minúsculas para busca insensível a maiúsculas/minúsculas
+# Convertendo as chaves (categorias) para minúsculas para busca insensível a maiúsculas/minúsculas------------------------------------
         categorias_lower = {key.lower(): categorias[key] for key in categorias.keys()}
         
         if categoria_escolhida in categorias_lower:
@@ -175,9 +190,7 @@ def extrato_por_categoria(biblioteca, categorias):
             for livro in livros_categoria:
                 informacao_livro = biblioteca[livro]
                 print(f"Nome do livro: {livro}")
-                
                 print(f"Autor: {informacao_livro['autor']}")
-                
                 print(f"Preço: {informacao_livro['preço']}")
                 print()
                 print_linha_embelezada()
@@ -189,6 +202,7 @@ def extrato_por_categoria(biblioteca, categorias):
     except KeyError:
         print("Categoria inválida")
 
+#Função para extrair informações por autor--------------------------------------------------------------------------------------------
 def extrato_por_autor(biblioteca, categorias):
     autor_busca = input("Digite o nome do autor que deseja buscar: ").lower()
     print_linha_embelezada()
@@ -196,13 +210,11 @@ def extrato_por_autor(biblioteca, categorias):
     found_books = False
     for livro, informacao_livro in biblioteca.items():
         if informacao_livro['autor'].lower() == autor_busca:
-
+#Ele vai percorrer "informacao_livro" dentro da biblioteca, e conferir se o autor digitado está no banco de dados---------------------
             print(f"\nLivros do autor {informacao_livro['autor']}")
             print_linha_embelezada()
             print(f"\nNome do livro: {livro}")
-            
             print(f"Categoria: {informacao_livro['categoria']}")
-            
             print(f"Preço: {informacao_livro['preço']}")
             print()
             print_linha_embelezada()
@@ -211,7 +223,8 @@ def extrato_por_autor(biblioteca, categorias):
     if not found_books:
         print(f"Não foram encontrados livros do autor {autor_busca} na biblioteca.")
         print_linha_embelezada()
-#Parte 5
+
+# Função principal que controla o menu e as interações com o usuário------------------------------------------------------------------
 def main():
     biblioteca, categorias = carregar_biblioteca()
 
@@ -230,7 +243,7 @@ def main():
         escolha = input("Escolha uma opção: ")
 
         print_linha_embelezada()
-
+#Condicionais pra cada ação do usuário, integrado com as defs definidas no início
         if escolha == '1':
             adicionar_livro(biblioteca, categorias)
         elif escolha == '2':
@@ -251,6 +264,6 @@ def main():
         else:
             print("Opção inválida. Digite um número de 1 a 7.")
             print_linha_embelezada()
-
+#A função main é executada somente se o arquivo Python for executado como um programa principal, isso oferece mais flexibilidade para executar apenas partes específicas quando necessário.
 if __name__ == "__main__":
     main()
