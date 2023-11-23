@@ -103,5 +103,4 @@ O Sofista|Platão|Filosofia|18.9
 Parmênides|Platão|Filosofia|16.7
 Filebo|Platão|Filosofia|17.3
 A Política|Platão|Filosofia|20.1
-
-
+^Z|s|s|1.0
