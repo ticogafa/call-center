@@ -185,10 +185,10 @@ def extrato_por_categoria(biblioteca, categorias):
                 informacao_livro = biblioteca[livro]
                 print(f"Nome do livro: {livro}")
                 print(f"Autor: {informacao_livro['autor']}")
-                print(f"Preço: {informacao_livro['preço']} R$")
+                print(f"Preço: R${informacao_livro['preço']}")
                 print()
                 print_linha_embelezada()
-            print(f"Total gasto na categoria: {dinheiro_categoria:.2f} R$")
+            print(f"Total gasto na categoria: R${dinheiro_categoria:.2f}")
             print_linha_embelezada()
         else:
             print(f"A categoria {categoria_escolhida} não contém livros na biblioteca.")
@@ -209,7 +209,7 @@ def extrato_por_autor(biblioteca, categorias):
             print_linha_embelezada()
             print(f"\nNome do livro: {livro}")
             print(f"Categoria: {informacao_livro['categoria']}")
-            print(f"Preço: {informacao_livro['preço']} R$")
+            print(f"Preço: R${informacao_livro['preço']}")
             print()
             print_linha_embelezada()
             found_books = True
