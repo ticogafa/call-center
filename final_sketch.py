@@ -32,9 +32,9 @@ def carregar_biblioteca():
                         biblioteca_carregada[nome_livro] = info_livro
 
 # Atualiza as categorias--------------------------------------------------------------------------------------------------------------
-                        if categoria_livro in categorias_carregadas:
+                        if categoria_livro in categorias_carregadas:#verificar se a categoria existe, se já existe adiciona o livro a ela.
                             categorias_carregadas[categoria_livro].append(nome_livro)
-                        else:
+                        else:#caso categoria for inexistente será criada uma
                             categorias_carregadas[categoria_livro] = [nome_livro]
                     except ValueError:
                         print(f"Erro ao converter o preço do livro {nome_livro}.")
