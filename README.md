@@ -36,7 +36,7 @@ Python 3.x
 Autores
 Miguel Batista
 Rafael Barros
-Thiago Gurgel
+Tiago Gurgel
 Rodrigo Nunes
 Viniccius Diniz
 
