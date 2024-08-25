@@ -1,7 +1,7 @@
 Biblioteca de Livros
 
 Este é um programa em Python que permite gerenciar uma biblioteca de livros. Ele oferece funcionalidades como adicionar livros, visualizar livros por categoria, atualizar informações, excluir livros, visualizar extratos por categoria e visualizar livros por autor.
-
+ 
 Programação
 
 Todo o projeto foi feito usando a linguagem de programação phyton. Usamos as funcionalidades de: funcões, condicionais, laços de repetição, e manipulação de arquivos. Não foi feito uso de nenhuma biblioteca além da biblioteca nativa "os" que serve para limpar o terminal e evitar poluição visual para o usuário, além disso foi usado github para salvar as alterações e permitir que os membros consigam trabalhar em sintonia, 
